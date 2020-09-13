@@ -44,7 +44,6 @@ console.log(user);
         <Route path="/checkout">
           <Header />
           <Checkout />
-          <Footer />
         </Route>
         <Route path="/login">
           <Login />
