@@ -1,7 +1,11 @@
 .home {
-    max-width: 1500px;
+    max-width: 1600px;
     margin-right: auto;
     margin-left: auto;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: rgb(235, 231, 231);    
 }
 
 .home_row {
@@ -11,10 +15,31 @@
     margin-right: 5px;
     margin-bottom: 10px;
 }
+.home_row_banner {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+.home_row_scroll {
+    display: flex;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 0px;
+    flex-direction: row;
+    overflow-x: scroll;
+    z-index: 1;
+}
+
+.home_row_scroll::-webkit-scrollbar {
+    display: none;
+}
 
 .home_image {
     width: 100%;
     mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
     z-index: -1;
-    margin-bottom: -150px;
+    margin-bottom: -200px;
 }

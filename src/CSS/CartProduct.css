@@ -2,16 +2,21 @@
     display: flex;
     margin-top: 20px;
     margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid lightgrey;
 }
 
 .Product_Image {
     object-fit: contain;
-    width: 180px;
+    width: 100px;
     height: 180px;
 }
 
 .checkoutProducts_info {
+    margin-top: 10px;
+    padding-top: 10px;
     padding-left: 20px;
+    padding-left: 30px;
 }
 
 .checkoutProducts_info > button {
@@ -22,12 +27,9 @@
     color: #111;
 }
 .checkoutProduct_title {
-font-size: 17px;
-font-weight: 800;
+    font-size: 17px;
+    font-weight: 800;
 }
-/* .checkoutProduct_price {
-    
-} */
 
 .checkoutProduct_rating {
     display: flex;

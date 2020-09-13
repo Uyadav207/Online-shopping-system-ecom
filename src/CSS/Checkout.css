@@ -1,26 +1,47 @@
 .checkout {
     display: flex;
-    padding: 20px;
-    background-color: white;
+    padding: 10px;
+    background-color: rgb(235, 231, 231);
     height: max-content;
+    overflow-y: scroll;
 }
+.checkout::-webkit-scrollbar {
+    display: none;
+}
+
 
 .checkout_title {
     margin-right: 10px;
-    padding: 10px;
+    padding: 40px;
     border-bottom: 1px solid lightgray;
 }
-
+ 
 .checkoutAds {
-    width: 100%;
+    width: 50%;
     margin-bottom: 10px;
-    margin-right: auto;
-    margin-left: auto;
+   
 }
 
+.checkout_left {
+    display: flex;
+    flex-direction: column;
+    width: 1500px;
+    overflow: scroll;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: white;
+    border: 1px solid lightgray;
+}
+
+.checkout_left::-webkit-scrollbar {
+    display: none;
+}
+
+
 .checkout_right {
-    padding: 100px;
-    padding-right: 0px;
-    padding-top: 0px;
-    padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+  width: 100%; 
+  align-items: flex-end;
+  position: fixed;
 }
