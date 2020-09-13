@@ -11,6 +11,7 @@ import Checkout from '../src/Pages/Checkout'
 import Login from './Pages/Login';
 import { useStateValue } from './Context/StateProvider';
 import { auth } from './firebase';
+import Footer from './Pages/Footer';
 
 function App() {
 
@@ -43,6 +44,7 @@ console.log(user);
         <Route path="/checkout">
           <Header />
           <Checkout />
+          <Footer />
         </Route>
         <Route path="/login">
           <Login />
@@ -50,6 +52,7 @@ console.log(user);
         <Route path="/">
           <Header />
           <Home />
+          <Footer />
         </Route>
       </Switch>
     </div>

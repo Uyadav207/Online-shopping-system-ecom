@@ -30,6 +30,7 @@
     overflow-y: hidden;
     overflow-x: hidden;
     background-color: white;
+    padding: 20px;
     border: 1px solid lightgray;
 }
 
@@ -43,5 +44,4 @@
   flex-direction: column;
   width: 100%; 
   align-items: flex-end;
-  position: fixed;
 }
