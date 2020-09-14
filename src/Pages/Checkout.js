@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useStateValue } from '../Context/StateProvider';
 import "../CSS/Checkout.css";
 import CheckoutProducts from './CheckoutProducts';
@@ -46,3 +46,8 @@ function Checkout() {
 }
 
 export default Checkout;
+
+
+
+
+// checkout Page for the Shop-Cart application.

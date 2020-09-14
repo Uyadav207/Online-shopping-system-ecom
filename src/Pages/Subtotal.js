@@ -11,7 +11,6 @@ function Subtotal() {
 
     return (
         <div className="subtotal">
-            {/* price */}
             <CurrencyFormat 
             renderText={(value) => (
                 <>
@@ -35,3 +34,7 @@ function Subtotal() {
 }
 
 export default Subtotal
+
+
+
+// The Application is developed for ISTE BITS - SPider-Hackathon 

@@ -10,3 +10,9 @@ function Footer() {
 }
 
 export default Footer
+
+
+// The Application is developed for ISTE BITS - SPider-Hackathon
+
+
+// Footer -- As per the RULE BOOK the Footer has been made.

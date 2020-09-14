@@ -4,10 +4,9 @@ import { useStateValue } from '../Context/StateProvider'
 
 function Product({ id, title, image, price, rating }) {
 
-    const [{}, dispatch] = useStateValue();
+    const [{}, dispatch] = useStateValue();     // Data layer Initialization
 
 const addToBasket = () => {
-        // Add Item to basket ..
         dispatch({ 
             type:'ADD_TO_BASKET',
             item :{
@@ -48,3 +47,7 @@ const addToBasket = () => {
 }
 
 export default Product
+
+
+
+// The Application is developed for ISTE BITS - SPider-Hackathon
