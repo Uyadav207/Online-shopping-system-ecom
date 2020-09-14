@@ -36,7 +36,6 @@ return () => {
 
 }, [])
 
-console.log(user);
   return (
     <Router>
     <div className="App">

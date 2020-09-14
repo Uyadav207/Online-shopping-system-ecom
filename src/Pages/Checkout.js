@@ -17,8 +17,8 @@ function Checkout() {
             />                
         {basket?.length === 0 ? (
             <div>
-                <h2>Your Cart is Empty Shop Now</h2>
-                <p>You have no items in your cart. So Go back to store and Buy stuff.</p>
+                <h2>Your Cart is Empty, Shop Now</h2>
+                <p>You have no items in your cart. So Go back to store and Buy stuff. Click on Add to Basket button and Come Back.</p>
             </div> 
         ): (
             <div>
