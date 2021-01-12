@@ -1,5 +1,5 @@
 
-export const initialState = {   // Initialialy the User auth and basket Item is Null.  The Application is developed for ISTE BITS - SPider-Hackathon
+export const initialState = {   // Initialialy the User auth and basket Item is Null.
     basket: [],
     user: null
 }
@@ -8,7 +8,7 @@ export const getBasketTotal = (basket) =>
     basket?.reduce(( amount, item ) => item.price + amount, 0)
 
 
-const reducer = (state, action) => {                                                        // Context APi is implemented for State Management.
+const reducer = (state, action) => {                                                        // Creating Reducers
     switch(action.type) {
         case 'SET_USER': 
             return { ...state, user: action.user}
