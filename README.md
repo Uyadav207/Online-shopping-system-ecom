@@ -1,7 +1,3 @@
-<p>
-  <img height="auto" width="100%"  src="https://raw.githubusercontent.com/Uyadav207/Shopcart-E-com-Stripe-payments/master/deepin-screen-recorder_google-chrome_20210129223709.gif" />
-</p>
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
