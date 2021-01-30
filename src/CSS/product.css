@@ -13,6 +13,11 @@
     border-radius: 10px;
 }
 
+.product:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.04);
+}
+
 
 .product_info {
     height: 100%;
@@ -20,6 +25,7 @@
     width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
+    padding: 10px;
 }
 
 .product_price {
@@ -41,5 +47,8 @@
 .product > button {
     background-color: #af452b;
     border: 1px solid;
-    border-color: #a88734 #9c7e31 #846a29;
+    border-color: #a88734 #9c7e31 #cfc9bb;
+    padding: 10px;
+    border-radius: 10px;
+    color: #efefef;
 }

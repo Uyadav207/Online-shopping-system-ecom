@@ -20,7 +20,7 @@
     flex-direction: column;
     margin-left: 50px;
     margin-right: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .home_row_scroll {
@@ -41,5 +41,11 @@
     width: 100%;
     mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
     z-index: -1;
-    margin-bottom: -200px;
+    margin-bottom: -500px;
+}
+
+@media only screen and (min-width: 200px) {
+    .home_image {
+        margin-bottom: -300px;
+    }
 }
