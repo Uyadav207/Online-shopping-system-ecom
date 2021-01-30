@@ -1,0 +1,20 @@
+.order {
+    padding: 40px;
+    margin: 20px 0;
+    border: 1px solid lightgray;
+    position: relative;
+    background-color: white;
+}
+
+.order_id > small {
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    flex-direction: row;
+    float: left;
+}
+
+.order_total {
+    font-weight: 500;
+    text-align: right;
+}
