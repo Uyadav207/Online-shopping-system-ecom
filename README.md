@@ -1,3 +1,63 @@
+<img src="https://raw.githubusercontent.com/Uyadav207/Online-shopping-system-ecom/master/deepin-screen-recorder_Select%20area_20210130181628.gif" />
+
+# SHOPCART - ONLINE SHOPPING SYSTEM ECOM
+
+Shopcart is an E-Commerce Product making user Shopping perfect. This Project is Open source by the author and is open for Feature and Bug report please follow the documentation to deep dive into the codebase.
+
+## Quick Overview
+
+- The front end of the application is used built using the create react app. TO get familiar with react framework please visit [Create ReactApp](https://github.com/facebook/create-react-app)
+- The back End f the application is made using firebase cloud functions. 
+- [Firebase-cloud-fucntions](https://firebase.google.com/docs/functions): Created cloud function for integrating stripe gateway.
+- [Express](https://expressjs.com/)
+- [Node.js](https://nodejs.org/)
+- [Context React](https://reactjs.org/docs/context.html)
+
+## Contributing to the project
+
+Read the [Contribution guide]() for contributing to the [project](https://shop-cart-d0315.web.app/). Please read our contribution guidelines before raising pull request and issues.
+
+## CODE OF CONDUCT
+
+- Read the [Code of conduct](https://github.com/Uyadav207/Online-shopping-system-ecom/blob/Code-of-Conduct/CODE_OF_CONDUCT.md) to understand the community guidelines.
+
+## Dependencies
+
+```javascript
+"dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "@stripe/react-stripe-js": "^1.1.2",
+    "@stripe/stripe-js": "^1.11.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.21.1",
+    "firebase": "^7.20.0",
+    "firebase-tools": "^9.1.1",
+    "font-awesome": "^4.7.0",
+    "moment": "^2.29.1",
+    "react": "^16.13.1",
+    "react-currency-format": "^1.0.0",
+    "react-dom": "^16.13.1",
+    "react-responsive-carousel": "^3.2.9",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+```
+
+# Create React App 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
