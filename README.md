@@ -13,7 +13,7 @@ Shopcart is an E-Commerce Product making user Shopping perfect. This Project is 
 - [Node.js](https://nodejs.org/)
 - [Context React](https://reactjs.org/docs/context.html)
 
-## Contributing to the project
+## Contribute to the project
 
 Read the [Contribution guide]() for contributing to the [project](https://shop-cart-d0315.web.app/). Please read our contribution guidelines before raising pull request and issues.
 
